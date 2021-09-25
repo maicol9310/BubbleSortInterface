@@ -15,7 +15,42 @@ namespace Bubble
 
             for (int i = 0; i < n; ++i)
             {
-                Console.WriteLine(arr[i]);
+                switch (arr[i])
+                {
+                    case "0":
+                        Console.Write("Zero" + " ");
+                        break;
+                    case "1":
+                        Console.Write("ONE" + " ");
+                        break;
+                    case "2":
+                        Console.Write("two" + " ");
+                        break;
+                    case "3":
+                        Console.Write("TREE" + " ");
+                        break;
+                    case "4":
+                        Console.Write("four" + " ");
+                        break;
+                    case "5":
+                        Console.Write("FIVE" + " ");
+                        break;
+                    case "6":
+                        Console.Write("six" + " ");
+                        break;
+                    case "7":
+                        Console.Write("SEVEN" + " ");
+                        break;
+                    case "8":
+                        Console.Write("eight" + " ");
+                        break;
+                    case "9":
+                        Console.Write("NINE" + " ");
+                        break;
+                    default:
+                        Console.Write(arr[i] + " ");
+                        break;
+                }
             }
             Console.WriteLine();
         }
