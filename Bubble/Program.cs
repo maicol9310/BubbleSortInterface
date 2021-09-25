@@ -9,12 +9,16 @@ namespace Bubble
     }
     class BubbleSortCollectionSorter : ICollectionSorter
     {
+        //Method that prints and replaces the values ​​of the array
         static void printArrayNumAndString(string[] arr)
         {
+            //Array size
             int n = arr.Length;
 
+            //Traverse the size of the array
             for (int i = 0; i < n; ++i)
             {
+                //switch case - for replacing integers to string
                 switch (arr[i])
                 {
                     case "0":
@@ -55,10 +59,16 @@ namespace Bubble
             Console.WriteLine();
         }
 
+        //Method ascending sort
         public string[] SortAscending(int[] numbers)
         {
+            //Array where the final ordered array is stored
             string[] result = { };
+
+            //Array size
             int n = numbers.Length;
+
+            //Ascending sort algorithm
             for (int i = 0; i < n - 1; i++)
             {
                 for (int j = 0; j < n - i - 1; j++)
@@ -72,16 +82,24 @@ namespace Bubble
                 }
             }
 
+            //Convert int array into string array and store in variable "result" type array string
             result = Array.ConvertAll(numbers, element => element.ToString());
+
+            //call the method that prints and replaces the values ​​of the array
             printArrayNumAndString(result);
             return result;
         }
 
+        //Method ascending sort
         public string[] SortDescending(int[] numbers)
         {
+            //Array where the final ordered array is stored
             string[] result = { };
+
+            //Array size
             int n = numbers.Length;
 
+            //Descending sort algorithm
             for (int i = 0; i < n - 1; i++)
             {
                 for (int j = 0; j < n - 1 - i; j++)
@@ -95,7 +113,10 @@ namespace Bubble
                 }
             }
 
+            //Convert int array into string array and store in variable "result" type array string 
             result = Array.ConvertAll(numbers, element => element.ToString());
+
+            //call the method that prints and replaces the values ​​of the array
             printArrayNumAndString(result);
             return result;
         }
@@ -104,14 +125,18 @@ namespace Bubble
     {
         static void Main(string[] args)
         {
+            //Main array
             int[] arrayNum = { 1, 5, 6, 23, 86, 5, 55, 8, 4, 1, 2, 3, 5 };
             BubbleSortCollectionSorter BubbleSorter = new BubbleSortCollectionSorter();
-           
+
             Console.WriteLine("Ascending sort:");
+            //Interface method call ascending sort
             BubbleSorter.SortAscending(arrayNum);
 
+            Console.WriteLine("");
 
             Console.WriteLine("Descending sort:");
+            //Interface method call ascending sort
             BubbleSorter.SortDescending(arrayNum);
 
         }
