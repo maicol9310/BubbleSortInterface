@@ -8,27 +8,34 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Shax\\.nuget\\packages\\": {}
+    "C:\\Users\\usuario1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shax\\Desktop\\BubbleSortInterface\\Bubble\\Bubble.csproj",
+      "projectUniqueName": "C:\\Users\\usuario1\\Desktop\\PROGRAMACION\\BubbleSortInterface\\Bubble\\Bubble.csproj",
       "projectName": "Bubble",
-      "projectPath": "C:\\Users\\Shax\\Desktop\\BubbleSortInterface\\Bubble\\Bubble.csproj",
-      "packagesPath": "C:\\Users\\Shax\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shax\\Desktop\\BubbleSortInterface\\Bubble\\obj\\",
+      "projectPath": "C:\\Users\\usuario1\\Desktop\\PROGRAMACION\\BubbleSortInterface\\Bubble\\Bubble.csproj",
+      "packagesPath": "C:\\Users\\usuario1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\usuario1\\Desktop\\PROGRAMACION\\BubbleSortInterface\\Bubble\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Shax\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\usuario1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net5.0": {

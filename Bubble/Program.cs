@@ -2,6 +2,7 @@
 
 namespace Bubble
 {
+    //Interface BubbleSort
     interface ICollectionSorter
     {
         string[] SortAscending(int[] numbers);
@@ -57,6 +58,36 @@ namespace Bubble
                 }
             }
             Console.WriteLine();
+        }
+
+        //Method count swap
+        public string countSwap(int[] numbers) 
+        {
+            //Array size
+            int n = numbers.Length;
+
+            //Num Swap
+            int swap = 0;
+
+            //sort algorithm count swap
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (numbers[j] > numbers[j + 1])
+                    {
+                        int temp = numbers[j];
+                        numbers[j] = numbers[j + 1];
+                        numbers[j + 1] = temp;
+                        swap++;
+                    }
+                }
+            }
+
+            //Convert int to string
+            string totalSwap = Convert.ToString(swap);
+
+            return totalSwap;
         }
 
         //Method ascending sort
@@ -126,7 +157,7 @@ namespace Bubble
         static void Main(string[] args)
         {
             //Main array
-            int[] arrayNum = { 1, 5, 6, 23, 86, 5, 55, 8, 4, 1, 2, 3, 5 };
+            int[] arrayNum = { 2, 8, 6, 40, 555, 65, 155, 7, 3, 2, 2, 1, 4, 5, 1, 1, 5, 4, 100, 200 };
             BubbleSortCollectionSorter BubbleSorter = new BubbleSortCollectionSorter();
 
             Console.WriteLine("Ascending sort:");
@@ -139,6 +170,10 @@ namespace Bubble
             //Interface method call ascending sort
             BubbleSorter.SortDescending(arrayNum);
 
+            Console.WriteLine("");
+
+            //Interface method call ascending sort
+            Console.WriteLine("Amount of Swap: " + BubbleSorter.countSwap(arrayNum));
         }
     }
 }
