@@ -1,0 +1,16 @@
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfo.cs
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.exe
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.deps.json
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.runtimeconfig.json
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.runtimeconfig.dev.json
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.dll
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\ref\Utilities.dll
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\bin\Debug\net5.0\Utilities.pdb
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.dll
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\ref\Utilities.dll
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.pdb
+C:\Users\tec02js1\Desktop\BubbleSortInterface\Utilities\obj\Debug\net5.0\Utilities.genruntimeconfig.cache
